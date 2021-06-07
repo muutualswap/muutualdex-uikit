@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pantherswap/panther-uikit",
+  "repository": "https://github.com/muutualswap/muutualswap-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -65,6 +65,7 @@
     "rollup": "^2.39.0",
     "styled-components": "^5.2.0",
     "themeprovider-storybook": "^1.6.4",
+    "storybook-addon-theme-playground": "^2.1.0"
     "ts-jest": "^26.5.1",
     "tslib": "^2.0.3",
     "typescript": "^4.1.5"
@@ -78,6 +79,7 @@
   "dependencies": {
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
+    "@storybook/addon-controls": "6.3.0-beta.14",
     "lodash": "^4.17.20",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
